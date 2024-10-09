@@ -24,7 +24,7 @@ class VaccineCenterFactory extends Factory
         return [
             'name' => $this->faker->company,
             'location' => $this->faker->address,
-            'visitor_limit' => $this->faker->numberBetween(1, 10),
+            'visitor_limit' => $this->faker->numberBetween(50, 100),
         ];
     }
 }

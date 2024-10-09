@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero {
+    background: url('https://bd.usembassy.gov/wp-content/uploads/sites/151/2023/11/Post-FB-7-e1622519655759-750x450-1.png') no-repeat center center;
+    background-size: cover;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
